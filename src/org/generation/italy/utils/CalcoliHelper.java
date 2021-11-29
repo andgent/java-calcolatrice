@@ -31,14 +31,14 @@ public class CalcoliHelper{
 		}
 		
 		public static double dDifferenza(double z, double k) {
-			if(x > y) {
-				differenza = x - y;}
+			if(z > k) {
+				dDifferenza = k - z;}
 			else { 
-				differenza = y - x;}
+				dDifferenza = z - k;}
 			return dDifferenza;
 		} 
 		public static double dMultiply (double z, double k) {
-			multiply = x * y;
+			dMultiply = z * k;
 			return dMultiply;
 		}
 		public static double dModulo (double z) {
@@ -48,10 +48,10 @@ public class CalcoliHelper{
 			return dModulo;
 		}
 		public static double dMinore(double z, double k){
-			if(x < y) {
-				minore = x;}
-			else if (y < x) {
-				minore = y;}
+			if(k < z) {
+				dMinore = k;}
+			else if (z < k) {
+				dMinore = z;}
 			 return minore;
 		}
 		public static double dMaggiore (double z, double k) {
